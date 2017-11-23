@@ -90,13 +90,13 @@ func TestGetUncleReward(t *testing.T) {
 func TestGetByzantiumUncleReward(t *testing.T) {
 	rewards := make(map[int64]string)
 	expectedRewards := map[int64]string{
-		1: "2625000000000000000",
-		2: "2250000000000000000",
-		3: "1875000000000000000",
-		4: "1500000000000000000",
-		5: "1125000000000000000",
-		6: "750000000000000000",
-		7: "375000000000000000",
+		1: "4375000000000000000",
+		2: "3750000000000000000",
+		3: "3125000000000000000",
+		4: "2500000000000000000",
+		5: "1875000000000000000",
+		6: "1250000000000000000",
+		7: "625000000000000000",
 	}
 	for i := int64(1); i < 8; i++ {
 		rewards[i] = getUncleReward(byzantiumHardForkHeight, byzantiumHardForkHeight+i).String()

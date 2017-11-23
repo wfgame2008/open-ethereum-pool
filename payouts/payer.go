@@ -10,9 +10,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 
-	"github.com/sammy007/open-ethereum-pool/rpc"
-	"github.com/sammy007/open-ethereum-pool/storage"
-	"github.com/sammy007/open-ethereum-pool/util"
+	"github.com/wfgame2008/open-ethereum-pool/rpc"
+	"github.com/wfgame2008/open-ethereum-pool/storage"
+	"github.com/wfgame2008/open-ethereum-pool/util"
 )
 
 const txCheckInterval = 5 * time.Second
